@@ -1,10 +1,11 @@
 #include <iostream>
 
 int main() {
-    int a  =  20; b = 30;
-    int c = 4, output;
+    int a = 20, b = 30;
+    int c = 4;
+    double output;
 
-    outpot = a - b/c;
-    count << output: << output << \n;
+    output = a - static_cast<double>(b) / c;
+    std::cout << "output: " <<output << std::endl;
     return 0;
 }
